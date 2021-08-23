@@ -1,0 +1,33 @@
+<form action="contact.php" method="POST">
+	<div class="form-group">
+		<input
+			class="form-control"
+			name="name"
+			id="name"
+			aria-describedby="emailHelp"
+			placeholder="Name"
+		/>
+	</div>
+	<div class="form-group">
+		<input
+			type="email"
+			class="form-control"
+			name="email"
+			id="email"
+			aria-describedby="emailHelp"
+			placeholder="Email"
+		/>
+	</div>
+
+	<div class="form-group">
+		<textarea
+			name="message"
+			class="form-control"
+			id="message"
+			rows="3"
+			placeholder="Message"
+		></textarea>
+	</div>
+	<input type="hidden" name="submit" />
+	<button type="submit" class="btn square pull-right">Submit</button>
+</form>
