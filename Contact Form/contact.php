@@ -47,6 +47,12 @@ if (isset($_POST["submit"])) {
         $errMessage = 'Please enter your message';
     }
 
+    //Check if honey pot field has been entered
+    if ($_POST['url']) {
+
+        die();
+    }
+
     //Check if simple anti-bot test is correct
 
     /*
